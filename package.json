@@ -1,0 +1,20 @@
+{
+    "name": "Vue-Snippets",
+    "displayName": "",
+    "description": "vue snippets for vue2 and vue3",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
