@@ -1,20 +1,38 @@
 {
-    "name": "Vue-Snippets",
-    "displayName": "",
+    "name": "vue-snippets-self",
+    "displayName": "Vue-Snippets",
     "description": "vue snippets for vue2 and vue3",
     "version": "0.0.1",
+    "icon": "icon/Vue.png",
     "engines": {
-        "vscode": "^1.67.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Snippets"
     ],
+    "galleryBanner": {
+        "color": "#0273D4",
+        "theme": "dark"
+    },
+    "publisher": "jwy",
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
+                "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue-html",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "repository": "https://github.com/jwyGithub/Vue-Snippets.git",
+    "homepage": "https://github.com/jwyGithub/Vue-Snippets/readme",
+    "license": "SEE LICENSE IN LICENSE",
+    "devDependencies": {
+        "@types/node": "^17.0.32",
+        "prettier": "^2.6.2",
+        "vue": "^3.2.33"
     }
 }
