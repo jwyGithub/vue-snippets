@@ -3,7 +3,7 @@
 > JavaScript Snippets for MDN and Lib
 
 <p align="center">
-  <img src="https://images.cnblogs.com/cnblogs_com/jwyblogs/1576071/o_220312063215_javascript.png" alt="icon">
+  <img src="https://images.cnblogs.com/cnblogs_com/jwyblogs/1576071/o_220512020323_Vue.png" alt="icon">
 </p>
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=jwy.vue-snippets-self">
