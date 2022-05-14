@@ -9,15 +9,21 @@ module.exports = [
         description: ''
     },
     {
-        key: 'v3-template',
-        prefix: 'v3-template',
-        body: fs.readFileSync(resolve(__dirname, './v3-template.vue'), 'utf-8'),
+        key: 'v3-tsx-vue-template',
+        prefix: 'v3-tsx-vue-template',
+        body: fs.readFileSync(resolve(__dirname, './v3-tsx-vue-template.vue'), 'utf-8'),
         description: ''
     },
     {
-        key: 'v3-template-setup',
-        prefix: 'v3-template-setup',
-        body: fs.readFileSync(resolve(__dirname, './v3-template-setup.vue'), 'utf-8'),
+        key: 'v3-tsx-tsx-template',
+        prefix: 'v3-tsx-tsx-template',
+        body: fs.readFileSync(resolve(__dirname, './v3-tsx-tsx-template.tsx'), 'utf-8'),
+        description: ''
+    },
+    {
+        key: 'v3-setup-template',
+        prefix: 'v3-setup-template',
+        body: fs.readFileSync(resolve(__dirname, './v3-setup-template.vue'), 'utf-8'),
         description: ''
     }
 ];
