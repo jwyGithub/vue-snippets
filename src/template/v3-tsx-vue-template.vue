@@ -1,4 +1,4 @@
-<script>
+<script lang="tsx">
 import { defineComponent, PropType } from 'vue';
 
 export default defineComponent({

@@ -2,7 +2,7 @@
     "name": "vue-snippets-self",
     "displayName": "Vue-Snippets",
     "description": "vue snippets for vue2 and vue3",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "icon/Vue.png",
     "engines": {
         "vscode": "^1.0.0"
@@ -24,6 +24,14 @@
             {
                 "language": "vue-html",
                 "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
             }
         ]
     },
@@ -36,3 +44,4 @@
         "vue": "^3.2.33"
     }
 }
+

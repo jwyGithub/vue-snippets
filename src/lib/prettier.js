@@ -1,6 +1,6 @@
 const prettier = require('prettier');
 
-module.exports = (html, parser = 'babel') =>
+module.exports = (html, parser) =>
     prettier.format(html, {
         arrowParens: 'avoid',
         bracketSpacing: true,
@@ -17,7 +17,6 @@ module.exports = (html, parser = 'babel') =>
         tabWidth: 4,
         trailingComma: 'none',
         useTabs: false,
-        vueIndentScriptAndStyle: false,
-        parser: 'vue'
+        parser: parser
     });
 

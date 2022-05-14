@@ -9,7 +9,7 @@ const format = ({ key, prefix, body, description }) => {
     return {
         [key]: {
             prefix,
-            body: prettier(body),
+            body: body,
             description
         }
     };
@@ -18,13 +18,13 @@ const format = ({ key, prefix, body, description }) => {
 const generator = () => {
     try {
         const snippetsConfig = snippetsRoot.map(item => {
-            item.body = prettier(item.body, 'vue');
+            item.body = prettier(item.body, item.parser);
             return item;
         });
 
         let snippets = snippetsConfig.reduce((pre, item) => {
-           pre = { ...pre, ...format(item) };
-            return pre
+            pre = { ...pre, ...format(item) };
+            return pre;
         }, {});
 
         fs.writeFileSync(snippetsJSONRoot, JSON.stringify(snippets, null, 4));
@@ -33,6 +33,5 @@ const generator = () => {
     }
 };
 
-generator()
-
+generator();
 
