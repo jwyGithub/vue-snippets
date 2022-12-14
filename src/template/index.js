@@ -10,6 +10,20 @@ module.exports = [
         description: ''
     },
     {
+        key: 'v2-setup-template',
+        prefix: 'v2-setup-template',
+        body: fs.readFileSync(resolve(__dirname, './v2-setup-template.vue'), 'utf-8'),
+        parser: 'vue',
+        description: ''
+    },
+    {
+        key: 'v2-tsx-template',
+        prefix: 'v2-tsx-template',
+        body: fs.readFileSync(resolve(__dirname, './v2-tsx-template.vue'), 'utf-8'),
+        parser: 'vue',
+        description: ''
+    },
+    {
         key: 'v3-tsx-vue-template',
         prefix: 'v3-tsx-vue-template',
         body: fs.readFileSync(resolve(__dirname, './v3-tsx-vue-template.vue'), 'utf-8'),

@@ -2,7 +2,7 @@
     "name": "vue-snippets-self",
     "displayName": "Vue-Snippets",
     "description": "vue snippets for vue2 and vue3",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "icon/Vue.png",
     "engines": {
         "vscode": "^1.0.0"

@@ -4,6 +4,16 @@
         "body": "<template>\r\n    <div class=\"container\"></div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n    name: '$1',\r\n    data() {\r\n        return {};\r\n    },\r\n    props: {},\r\n\r\n    components: {},\r\n\r\n    created() {},\r\n\r\n    mounted() {},\r\n\r\n    methods: {},\r\n\r\n    computed: {},\r\n\r\n    watch: {},\r\n\r\n    directives: {},\r\n\r\n    filters: {}\r\n};\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
         "description": ""
     },
+    "v2-setup-template": {
+        "prefix": "v2-setup-template",
+        "body": "<script>\r\nexport default defineComponent({\r\n    name: '$1'\r\n});\r\n</script>\r\n\r\n<script lang=\"tsx\" setup>\r\nimport { defineComponent, PropType } from 'vue';\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
+        "description": ""
+    },
+    "v2-tsx-template": {
+        "prefix": "v2-tsx-template",
+        "body": "<script lang=\"tsx\">\r\nimport { defineComponent, PropType } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n\r\n    render() {\r\n        return <div></div>;\r\n    }\r\n});\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
+        "description": ""
+    },
     "v3-tsx-vue-template": {
         "prefix": "v3-tsx-vue-template",
         "body": "<script lang=\"tsx\">\r\nimport { defineComponent, PropType } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n    setup(props, { emit, expose, slots, attrs }) {\r\n        return () => <div class='container'>this is $1</div>;\r\n    }\r\n});\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
