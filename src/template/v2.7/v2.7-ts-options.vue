@@ -1,14 +1,18 @@
 <template>
-    <div class="container"></div>
+    <div>$1</div>
 </template>
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-<script>
-export default {
+export default defineComponent({
     name: '$1',
     data() {
         return {};
     },
+
     props: {},
+
+    emits: {},
 
     components: {},
 
@@ -22,11 +26,11 @@ export default {
 
     watch: {},
 
-    directives: {},
+    filters: {},
 
-    filters: {}
-};
+    directives: {}
+});
 </script>
 
-<style scoped lang="scss"></style>
+<style lang="scss" scoped></style>
 

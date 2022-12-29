@@ -2,8 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const prettier = require('./lib/prettier');
 
-const snippetsRoot = require('./template/index.js');
+const { getFiles, getSnippetsRoot } = require('./shared/index');
+
+const TEMPLATE_ROOT = path.resolve(__dirname, './template');
 const snippetsJSONRoot = path.resolve(__dirname, '../snippets/snippets.code-snippets');
+
+const templateFiles = getFiles(TEMPLATE_ROOT);
+const snippetsRoot = getSnippetsRoot(templateFiles);
 
 const format = ({ key, prefix, body, description }) => {
     return {

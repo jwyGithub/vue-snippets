@@ -1,32 +1,32 @@
 {
-    "v2-template": {
-        "prefix": "v2-template",
-        "body": "<template>\r\n    <div class=\"container\"></div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n    name: '$1',\r\n    data() {\r\n        return {};\r\n    },\r\n    props: {},\r\n\r\n    components: {},\r\n\r\n    created() {},\r\n\r\n    mounted() {},\r\n\r\n    methods: {},\r\n\r\n    computed: {},\r\n\r\n    watch: {},\r\n\r\n    directives: {},\r\n\r\n    filters: {}\r\n};\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
+    "v2.6-js-options": {
+        "prefix": "v2.6-js-options",
+        "body": "<template>\r\n    <div class=\"container\">$1</div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n    name: '$1',\r\n    data() {\r\n        return {};\r\n    },\r\n    props: {},\r\n\r\n    components: {},\r\n\r\n    created() {},\r\n\r\n    mounted() {},\r\n\r\n    beforeDestroy() {},\r\n\r\n    methods: {},\r\n\r\n    computed: {},\r\n\r\n    watch: {},\r\n\r\n    directives: {},\r\n\r\n    filters: {}\r\n};\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
         "description": ""
     },
-    "v2-setup-template": {
-        "prefix": "v2-setup-template",
-        "body": "<script>\r\nexport default defineComponent({\r\n    name: '$1'\r\n});\r\n</script>\r\n\r\n<script lang=\"tsx\" setup>\r\nimport { defineComponent, PropType } from 'vue';\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
+    "v2.6-jsx-options": {
+        "prefix": "v2.6-jsx-options",
+        "body": "<script>\r\nexport default {\r\n    name: '$1',\r\n    data() {\r\n        return {};\r\n    },\r\n    props: {},\r\n\r\n    components: {},\r\n\r\n    render() {\r\n        return <div>$1</div>;\r\n    },\r\n\r\n    created() {},\r\n\r\n    mounted() {},\r\n\r\n    beforeDestroy() {},\r\n\r\n    methods: {},\r\n\r\n    computed: {},\r\n\r\n    watch: {},\r\n\r\n    directives: {},\r\n\r\n    filters: {}\r\n};\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
         "description": ""
     },
-    "v2-tsx-template": {
-        "prefix": "v2-tsx-template",
-        "body": "<script lang=\"tsx\">\r\nimport { defineComponent, PropType } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n\r\n    render() {\r\n        return <div></div>;\r\n    }\r\n});\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
+    "v2.7-ts-composition": {
+        "prefix": "v2.7-ts-composition",
+        "body": "<template>\r\n    <div>$1</div>\r\n</template>\r\n\r\n<script lang=\"ts\">\r\nimport { defineComponent } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n    setup(props, { emit, attrs, expose, slots }) {\r\n        return {};\r\n    }\r\n});\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
         "description": ""
     },
-    "v3-tsx-vue-template": {
-        "prefix": "v3-tsx-vue-template",
-        "body": "<script lang=\"tsx\">\r\nimport { defineComponent, PropType } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n    setup(props, { emit, expose, slots, attrs }) {\r\n        return () => <div class='container'>this is $1</div>;\r\n    }\r\n});\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
+    "v2.7-ts-options": {
+        "prefix": "v2.7-ts-options",
+        "body": "<template>\r\n    <div>$1</div>\r\n</template>\r\n<script lang=\"ts\">\r\nimport { defineComponent } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n    data() {\r\n        return {};\r\n    },\r\n\r\n    props: {},\r\n\r\n    emits: {},\r\n\r\n    components: {},\r\n\r\n    created() {},\r\n\r\n    mounted() {},\r\n\r\n    methods: {},\r\n\r\n    computed: {},\r\n\r\n    watch: {},\r\n\r\n    filters: {},\r\n\r\n    directives: {}\r\n});\r\n</script>\r\n\r\n<style lang=\"scss\" scoped></style>\r\n",
         "description": ""
     },
-    "v3-tsx-tsx-template": {
-        "prefix": "v3-tsx-tsx-template",
-        "body": "import { defineComponent, PropType } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n    setup(props, { emit, expose, slots, attrs }) {\r\n        return () => <>this is $1</>;\r\n    }\r\n});\r\n",
+    "v2.7-ts-setup": {
+        "prefix": "v2.7-ts-setup",
+        "body": "<template>\r\n    <div>$1</div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nconst props = defineProps<{}>();\r\n\r\nconst emits = defineEmits<{}>();\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
         "description": ""
     },
-    "v3-setup-template": {
-        "prefix": "v3-setup-template",
-        "body": "<template>\r\n    <div class=\"container\">this is $1</div>\r\n</template>\r\n\r\n<script lang=\"ts\">\r\nexport default {\r\n    name: '$1'\r\n};\r\n</script>\r\n<script lang=\"ts\" setup>\r\nimport { defineProps, defineEmits, defineExpose, withDefaults, useSlots, useAttrs } from 'vue';\r\n\r\nconst changeItem = () => {\r\n    emit('change', 1);\r\n};\r\nconst deleteItem = () => {\r\n    emit('update', 'test');\r\n};\r\n\r\n/**\r\n * define props\r\n */\r\ninterface Props {\r\n    msg?: string;\r\n    labels?: string[];\r\n}\r\nconst props = withDefaults(defineProps<Props>(), {\r\n    msg: 'this is msg',\r\n    labels: () => ['one', 'two']\r\n});\r\n\r\n/**\r\n * define emits\r\n */\r\nconst emit = defineEmits<{\r\n    (e: 'change', id: number): void;\r\n    (e: 'update', value: string): void;\r\n}>();\r\n\r\n/**\r\n * define expose props\r\n */\r\ndefineExpose({\r\n    labels: props.labels,\r\n    changeItem,\r\n    deleteItem\r\n});\r\n\r\n/**\r\n * get slots\r\n */\r\nconst slots = useSlots();\r\n\r\n/**\r\n * get attrs\r\n */\r\nconst attrs = useAttrs();\r\n</script>\r\n\r\n<style lang=\"scss\" scoped>\r\n.container {\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n</style>\r\n",
+    "v2.7-tsx-options": {
+        "prefix": "v2.7-tsx-options",
+        "body": "<script lang=\"tsx\">\r\nimport { defineComponent } from 'vue';\r\n\r\nexport default defineComponent({\r\n    name: '$1',\r\n\r\n    data() {\r\n        return {};\r\n    },\r\n\r\n    props: {},\r\n\r\n    emits: {},\r\n\r\n    render() {\r\n        return <div>$1</div>;\r\n    },\r\n\r\n    created() {},\r\n\r\n    mounted() {},\r\n\r\n    methods: {},\r\n\r\n    computed: {},\r\n\r\n    watch: {},\r\n\r\n    directives: {},\r\n\r\n    filters: {}\r\n});\r\n</script>\r\n\r\n<style lang=\"scss\" scoped></style>\r\n",
         "description": ""
     }
 }

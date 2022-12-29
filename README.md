@@ -22,10 +22,10 @@
 
 ### snippets
 
--   v2-template
--   v2-setup-template
--   v2-tsx-template
--   v3-tsx-vue-template
--   v3-tsx-tsx-template
--   v3-setup-template"
+-   v2.6-js-options
+-   v2.6-jsx-options
+-   v2.7-ts-composition
+-   v2.7-ts-options
+-   v2.7-ts-setup
+-   v2.7-tsx-options
 
