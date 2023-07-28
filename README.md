@@ -34,6 +34,18 @@
 
 <br />
 
+#### **v2.6-js-setup** <br />
+
+<img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.6-js-setup.jpg" width=500>
+
+<br />
+
+#### **v2.6-js-options** <br />
+
+<img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.6-js-options.jpg" width=500>
+
+<br />
+
 #### **v2.7-ts-composition** <br />
 
 <img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.7-ts-composition.jpg" width=500>
@@ -46,7 +58,7 @@
 
 <br />
 
-#### **vv2.7-ts-setup** <br />
+#### **v2.7-ts-setup** <br />
 
 <img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.7-ts-setup.jpg" width=500>
 
