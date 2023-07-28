@@ -34,15 +34,15 @@
 
 <br />
 
-#### **v2.6-js-setup** <br />
+#### **v2.7-js-setup** <br />
 
-<img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.6-js-setup.jpg" width=500>
+<img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.7-js-setup.jpg" width=500>
 
 <br />
 
-#### **v2.6-js-options** <br />
+#### **v2.7-js-options** <br />
 
-<img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.6-js-options.jpg" width=500>
+<img src="https://cdn.jsdelivr.net/gh/jwyGithub/vue-snippets/src/screen/v2.7-js-options.jpg" width=500>
 
 <br />
 
