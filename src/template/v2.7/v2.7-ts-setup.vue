@@ -4,7 +4,9 @@
 
 <script setup lang="ts">
 
-const props = defineProps<{}>();
+const props = defineProps<{
+    
+}>();
 
 const emits = defineEmits<{}>();
 

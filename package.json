@@ -15,6 +15,9 @@
         "theme": "dark"
     },
     "publisher": "jwy",
+    "scripts": {
+        "build": "node ./src/index.js"
+    },
     "contributes": {
         "snippets": [
             {

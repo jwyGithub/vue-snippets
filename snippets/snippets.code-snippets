@@ -16,7 +16,7 @@
     },
     "v2.7-js-setup": {
         "prefix": "v2.7-js-setup",
-        "body": "<template>\r\n    <div></div>\r\n</template>\r\n\r\n<script setup>\r\nimport { ref, reactive, getCurrentInstance, onMounted } from 'vue';\r\n\r\nconst _this = getCurrentInstance().proxy;\r\n\r\nconst props = defineProps();\r\n\r\nconst emits = defineEmits();\r\n\r\nconst exposed = defineExpose();\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
+        "body": "<template>\r\n    <div></div>\r\n</template>\r\n\r\n<script setup>\r\nimport { ref, reactive, getCurrentInstance, onMounted } from 'vue';\r\n\r\nconst _this = getCurrentInstance().proxy;\r\n\r\nconst props = defineProps({});\r\n\r\nconst emits = defineEmits();\r\n</script>\r\n\r\n<style scoped lang=\"scss\"></style>\r\n",
         "description": ""
     },
     "v2.7-ts-composition": {
